@@ -1,10 +1,9 @@
-// Autor: Inigo Ezcurdia <inigofermin.ezcurdia@unavarra.es>
-// Este programa tiene como único proposito comprobar el correcto funcionamiento de la libreria fragmenta a implementar por el estudiantado.
-// Para compilar este programa es necesario proveer de la libreria fragmenta
-//  Ejemplo: gcc -o fragmenta_test fragmenta_test.c fragmenta.o
-// Este programa espera ser ejectuado proveiéndole de N argumentos. Calcula el tamaño en bytes de dichos argumentos para crear un string que los contenga separados por espacios.
-// Este nuevo string recien creado, simula ser una entrada por teclado resultante de un scanf, de tal manera que podamos poner a prueba nuestra implementacion del comando fragmenta()
-// Si el comando fragmenta correctamente el string, obtendremos un vector que recorrereremos y podremos imprimir por pantalla sin problemas.
+// This program's sole purpose is to check the correct functioning of the fragmenta library to be implemented.
+// To compile this program, it is necessary to provide the fragmenta library.
+// Example: gcc -o fragmenta_test fragmenta_test.c fragmenta.o
+// This program expects to be executed by providing it with N arguments. It calculates the size in bytes of these arguments to create a string that contains them separated by spaces.
+// This newly created string simulates being a keyboard input resulting from a scanf, so that we can test our implementation of the fragmenta() command.
+// If the fragmenta command correctly fragments the string, we will obtain a vector that we can traverse and print on the screen without any problems.
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
